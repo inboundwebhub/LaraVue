@@ -18,6 +18,7 @@ class CreateTasksTable extends Migration
 		    $table->string('name');
 		    $table->unsignedInteger('user_id');
 		    $table->text('description');
+		    $table->string('operator');
 		    $table->timestamps();
 	    });
     }

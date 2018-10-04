@@ -8,7 +8,7 @@
                         {{index+1}}. {{s.author}} Said <i class="fas fa-info-circle"></i>
                     </p>
                     <p>
-                        {{s.created_at}}({{postedOn(s)}})
+                        {{postedOn(s)}}
                     </p>
                     <button @click="deleteStatus(index)" class="delete"></button>
                 </div>
@@ -69,7 +69,7 @@
                     .then(({data}) => this.statuses = data)
             },
             postedOn(status) {
-                return moment(status.created_at).fromNow();
+                return moment(status.created_at).calendar();
             },
 
             createStatus() {

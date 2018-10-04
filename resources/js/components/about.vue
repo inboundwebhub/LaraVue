@@ -3,7 +3,7 @@
         <div class="card" style="width: 50%;height: 50%;color: black;align-items: center;margin: 0 auto;">
             <div class="card-image">
                 <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    <img src="https://images.wallpaperscraft.com/image/cosmos_flower_minimalism_127408_1280x960.jpg" alt="Placeholder image">
                 </figure>
             </div>
             <div class="card-content">
