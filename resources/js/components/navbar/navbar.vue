@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item">
-                        <img src="http://factspread.org/public/img/BW-logo.png" alt="Logo">
+                       <strong>LaraVue</strong>
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>

@@ -75514,12 +75514,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "navbar-brand" }, [
             _c("a", { staticClass: "navbar-item" }, [
-              _c("img", {
-                attrs: {
-                  src: "http://factspread.org/public/img/BW-logo.png",
-                  alt: "Logo"
-                }
-              })
+              _c("strong", [_vm._v("LaraVue")])
             ]),
             _vm._v(" "),
             _c(
